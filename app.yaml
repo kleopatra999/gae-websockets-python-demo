@@ -10,6 +10,9 @@ manual_scaling:
 vm_settings:
   machine_type: f1-micro
 
+vm_health_check:
+  enable_health_check: False
+
 handlers:
 - url: /.*
   script: main.py
