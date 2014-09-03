@@ -32,7 +32,7 @@ class InfoHandler(tornado.web.RequestHandler):
 
 class HealthCheckHandler(tornado.web.RequestHandler):
     def get(self):
-        self.write("OK")
+        self.write("ok")
 
 
 class EchoWebSocket(tornado.websocket.WebSocketHandler):

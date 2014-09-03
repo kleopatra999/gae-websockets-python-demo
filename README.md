@@ -1,7 +1,7 @@
 gae-websockets-python-demo
 ==========================
 
-Websockets Demo using Google Managed VMS and a Python runtime
+WebSocket Demo using Google App Engine Managed VMs and a Python runtime with the Tornado framework
 
 
 When deployed visit the /info path of your app to get the WebSocket connection URL.
